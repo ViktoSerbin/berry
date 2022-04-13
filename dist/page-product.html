@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en" class="menu-open">
+
+<head>
+	<title>Product</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap&_v=20220413144502" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20220413144502">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<div class="header__left">
+						<a href="#" class="header__logo logo">
+							<img class="logo__img" src="img/logo.svg" alt="logo">
+						</a>
+						<button type="button" class="icon-menu">
+							<span></span>
+						</button>
+					</div>
+					<div class="header__content">
+						<label class="header__search-block block-search">
+							<input autocomplete="on" type="text" name="form[]" data-error="Ошибка" placeholder="Search" class="block-search__input">
+							<button type="submit" class="block-search__btn">
+								<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M6.66667 11.3333C9.244 11.3333 11.3333 9.244 11.3333 6.66667C11.3333 4.08934 9.244 2 6.66667 2C4.08934 2 2 4.08934 2 6.66667C2 9.244 4.08934 11.3333 6.66667 11.3333Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M14 14L10 10" stroke="#9E9E9E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+							</button>
+							<button type="button" class="block-search__setting">
+								<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32px" height="31px" viewBox="0 0 31 31" version="1.1">
+									<g>
+										<path style=" stroke:none;fill-rule:nonzero;fill:rgb(92.941176%,90.588235%,96.470588%);fill-opacity:1;" d="M 11.582031 0 L 19.097656 0 C 25.324219 0 30.371094 5.203125 30.371094 11.625 L 30.371094 19.375 C 30.371094 25.796875 25.324219 31 19.097656 31 L 11.582031 31 C 5.355469 31 0.308594 25.796875 0.308594 19.375 L 0.308594 11.625 C 0.308594 5.203125 5.355469 0 11.582031 0 Z M 11.582031 0 " />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 18.329637 12 C 19.431578 12 20.329763 11.104839 20.329763 10 C 20.329763 8.895161 19.431578 8 18.329637 8 C 17.223538 8 16.329511 8.895161 16.329511 10 C 16.329511 11.104839 17.223538 12 18.329637 12 Z M 18.329637 12 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 8.333165 10 L 16.333669 10 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 20.329763 10 L 24.330015 10 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 12.333417 18 C 13.439516 18 14.333543 17.104839 14.333543 16 C 14.333543 14.895161 13.439516 14 12.333417 14 C 11.227319 14 10.333291 14.895161 10.333291 16 C 10.333291 17.104839 11.227319 18 12.333417 18 Z M 12.333417 18 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 8.333165 16 L 10.333291 16 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 14.325227 16 L 24.325857 16 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 21.327747 24 C 22.433846 24 23.327873 23.104839 23.327873 22 C 23.327873 20.895161 22.433846 20 21.327747 20 C 20.225806 20 19.327621 20.895161 19.327621 22 C 19.327621 23.104839 20.225806 24 21.327747 24 Z M 21.327747 24 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 8.333165 22 L 19.331779 22 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+										<path style="fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke:rgb(40.392157%,22.745098%,71.764706%);stroke-opacity:1;stroke-miterlimit:4;" d="M 23.332031 22 L 24.330015 22 " transform="matrix(0.939394,0,0,0.96875,0,0)" />
+									</g>
+								</svg>
+							</button>
+						</label>
+						<div class="header__actions">
+							<div class="header__history">
+								<label class="header__history-btn">
+									<button type="button">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M15 12.75V16.43C15 16.78 15.19 17.11 15.49 17.29L18.61 19.14C18.97 19.35 19.43 19.23 19.64 18.88C19.85 18.52 19.74 18.06 19.38 17.85L16.51 16.14V12.74C16.5 12.34 16.16 12 15.75 12C15.34 12 15 12.34 15 12.75ZM25 13.5V8.21C25 7.76 24.46 7.54 24.15 7.86L22.37 9.64C20.56 7.83 17.98 6.79 15.16 7.04C10.97 7.42 7.52001 10.79 7.06001 14.98C6.46001 20.4 10.69 25 16 25C20.59 25 24.38 21.56 24.93 17.12C25 16.52 24.53 16 23.93 16C23.43 16 23.01 16.37 22.95 16.86C22.52 20.35 19.51 23.05 15.9 23C12.19 22.95 9.06001 19.82 9.00001 16.1C8.94001 12.2 12.11 9 16 9C17.93 9 19.68 9.79 20.95 11.05L18.86 13.14C18.54 13.46 18.76 14 19.21 14H24.5C24.78 14 25 13.78 25 13.5Z" fill="#2196F3" />
+											<rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="#E3F2FD" />
+										</svg>
+									</button>
+									History
+								</label>
+								<label class="header__history-btn">
+									<button type="button">
+										<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M22 9.00012H10C8.89543 9.00012 8 9.89555 8 11.0001V23.0001C8 24.1047 8.89543 25.0001 10 25.0001H22C23.1046 25.0001 24 24.1047 24 23.0001V11.0001C24 9.89555 23.1046 9.00012 22 9.00012Z" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M19.998 7V11" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M11.9937 7V11" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M8 14.9998H24" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M14.9951 18.9999H15.9951" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											<path d="M15.9961 18.9999V21.9999" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											<rect x="0.5" y="0.5" width="31" height="31" rx="7.5" stroke="#E3F2FD" />
+										</svg>
+									</button>
+									Events
+								</label>
+							</div>
+							<div class="header__user-block block-user">
+								<a class="block-user__massage" href="#">
+									<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="36" height="36" rx="8" fill="#FFF8E1" />
+										<path d="M26.3334 13.8167V21.3333C26.3334 22.25 25.5834 23 24.6667 23H13.0001L9.66675 26.3333V11.3333C9.66675 10.4167 10.4167 9.66667 11.3334 9.66667H19.7501C19.7001 9.93333 19.6667 10.2167 19.6667 10.5C19.6667 12.8 21.5334 14.6667 23.8334 14.6667C24.7751 14.6667 25.6334 14.3417 26.3334 13.8167ZM21.3334 10.5C21.3334 11.8833 22.4501 13 23.8334 13C25.2167 13 26.3334 11.8833 26.3334 10.5C26.3334 9.11667 25.2167 8 23.8334 8C22.4501 8 21.3334 9.11667 21.3334 10.5Z" fill="#FFC107" />
+									</svg>
+								</a>
+								<a class="block-user__notification" href="#">
+									<svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="36" height="36" rx="8" fill="#EDE7F6" />
+										<path d="M16.3352 12.1668C16.3352 11.7248 16.5108 11.3008 16.8234 10.9883C17.1359 10.6757 17.5598 10.5001 18.0019 10.5001C18.4439 10.5001 18.8678 10.6757 19.1804 10.9883C19.4929 11.3008 19.6685 11.7248 19.6685 12.1668C20.6255 12.6193 21.4414 13.3237 22.0286 14.2045C22.6158 15.0853 22.9522 16.1094 23.0019 17.1668V19.6668C23.0646 20.1849 23.2481 20.681 23.5375 21.1152C23.827 21.5494 24.2144 21.9096 24.6685 22.1668H11.3352C11.7893 21.9096 12.1767 21.5494 12.4662 21.1152C12.7557 20.681 12.9392 20.1849 13.0019 19.6668V17.1668C13.0515 16.1094 13.388 15.0853 13.9752 14.2045C14.5624 13.3237 15.3782 12.6193 16.3352 12.1668" stroke="#673AB7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+										<path d="M15.4971 22.1667V23.0001C15.4971 23.6631 15.7605 24.299 16.2293 24.7678C16.6981 25.2367 17.334 25.5001 17.9971 25.5001C18.6601 25.5001 19.296 25.2367 19.7648 24.7678C20.2337 24.299 20.4971 23.6631 20.4971 23.0001V22.1667" stroke="#673AB7" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									</svg>
+								</a>
+								<div class="block-user__user">
+									<picture><source srcset="img/user-img.webp" type="image/webp"><img class="block-user__img" src="img/user-img.png" alt="user-img"></picture>
+									<button type="button" class="block-user__settings">
+										<svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<g clip-path="url(#clip0_4151_2352)">
+												<path d="M10.325 5.62032C10.751 3.72406 13.249 3.72406 13.675 5.62032C13.7389 5.90519 13.8642 6.16973 14.0407 6.39243C14.2172 6.61512 14.4399 6.78966 14.6907 6.90185C14.9414 7.01404 15.2132 7.06071 15.4838 7.03805C15.7544 7.01539 16.0162 6.92405 16.248 6.77146C17.791 5.75638 19.558 7.66344 18.618 9.33077C18.4769 9.58092 18.3924 9.86351 18.3715 10.1555C18.3506 10.4476 18.3938 10.7408 18.4975 11.0115C18.6013 11.2821 18.7627 11.5225 18.9687 11.713C19.1747 11.9036 19.4194 12.039 19.683 12.1082C21.439 12.5682 21.439 15.2658 19.683 15.7258C19.4192 15.7948 19.1742 15.9301 18.968 16.1207C18.7618 16.3113 18.6001 16.5518 18.4963 16.8226C18.3924 17.0934 18.3491 17.3868 18.3701 17.679C18.3911 17.9713 18.4757 18.254 18.617 18.5043C19.557 20.1705 17.791 22.0787 16.247 21.0636C16.0153 20.9112 15.7537 20.82 15.4832 20.7974C15.2128 20.7748 14.9412 20.8215 14.6906 20.9335C14.44 21.0456 14.2174 21.2199 14.0409 21.4423C13.8645 21.6648 13.7391 21.9291 13.675 22.2137C13.249 24.1099 10.751 24.1099 10.325 22.2137C10.2611 21.9288 10.1358 21.6643 9.95929 21.4416C9.7828 21.2189 9.56011 21.0443 9.30935 20.9321C9.05859 20.8199 8.78683 20.7733 8.51621 20.7959C8.24559 20.8186 7.98375 20.9099 7.752 21.0625C6.209 22.0776 4.442 20.1705 5.382 18.5032C5.5231 18.2531 5.60755 17.9705 5.62848 17.6784C5.64942 17.3864 5.60624 17.0932 5.50247 16.8225C5.3987 16.5519 5.23726 16.3115 5.03127 16.121C4.82529 15.9304 4.58056 15.795 4.317 15.7258C2.561 15.2658 2.561 12.5682 4.317 12.1082C4.5808 12.0392 4.82578 11.9039 5.032 11.7133C5.23822 11.5227 5.39985 11.2822 5.50375 11.0114C5.60764 10.7406 5.65085 10.4472 5.62987 10.1549C5.60889 9.86271 5.5243 9.57995 5.383 9.32969C4.443 7.66344 6.209 5.7553 7.753 6.77038C8.753 7.42695 10.049 6.84597 10.325 5.62032Z" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M12 17.1565C13.6569 17.1565 15 15.7061 15 13.9169C15 12.1277 13.6569 10.6772 12 10.6772C10.3431 10.6772 9 12.1277 9 13.9169C9 15.7061 10.3431 17.1565 12 17.1565Z" stroke="#2196F3" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</g>
+											<defs>
+												<clipPath id="clip0_4151_2352">
+													<rect width="24" height="25.917" fill="white" transform="translate(0 0.958496)" />
+												</clipPath>
+											</defs>
+										</svg>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page page-product">
+			<div class="page__container">
+				<div class="page__body">
+					<aside class="page__aside aside">
+						<div class="aside__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M11.9971 14.9999C13.1016 14.9999 13.9971 14.1044 13.9971 12.9999C13.9971 11.8953 13.1016 10.9999 11.9971 10.9999C10.8925 10.9999 9.99707 11.8953 9.99707 12.9999C9.99707 14.1044 10.8925 14.9999 11.9971 14.9999Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13.4495 11.5501L15.4995 9.50012" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M6.40171 20C4.93986 18.8381 3.87562 17.2503 3.35649 15.4565C2.83735 13.6627 2.88903 11.7519 3.50435 9.98884C4.11968 8.22576 5.26818 6.69774 6.7907 5.61653C8.31321 4.53532 10.1343 3.95447 12.0017 3.95447C13.8691 3.95447 15.6902 4.53532 17.2127 5.61653C18.7352 6.69774 19.8837 8.22576 20.4991 9.98884C21.1144 11.7519 21.1661 13.6627 20.6469 15.4565C20.1278 17.2503 19.0636 18.8381 17.6017 20H6.40171Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Dashboard
+											</span>
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M19 4H5C4.44772 4 4 4.44772 4 5V19C4 19.5523 4.44772 20 5 20H19C19.5523 20 20 19.5523 20 19V5C20 4.44772 19.5523 4 19 4Z" fill="white" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M4 8H20" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M8 4V8" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Sample page
+											</span>
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M18 8H10C8.89543 8 8 8.89543 8 10V18C8 19.1046 8.89543 20 10 20H18C19.1046 20 20 19.1046 20 18V10C20 8.89543 19.1046 8 18 8Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M8 14.5001L14.492 8.00806L8 14.5001Z" fill="#616161" />
+												<path d="M8 14.5001L14.492 8.00806" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13.4961 20.004L20.0001 13.5L13.4961 20.004Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M8.58594 19.414L19.4129 8.58704" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M16 8V6C16 5.46957 15.7893 4.96086 15.4142 4.58579C15.0391 4.21071 14.5304 4 14 4H6C5.46957 4 4.96086 4.21071 4.58579 4.58579C4.21071 4.96086 4 5.46957 4 6V14C4 14.5304 4.21071 15.0391 4.58579 15.4142C4.96086 15.7893 5.46957 16 6 16H8" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Elements
+											</span>
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M17 3H7C5.89543 3 5 3.89543 5 5V19C5 20.1046 5.89543 21 7 21H17C18.1046 21 19 20.1046 19 19V5C19 3.89543 18.1046 3 17 3Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M9 7H15" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M9 11H15" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M9 15H13" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Page layouts
+											</span>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="aside__menu aside__menu_account menu">
+							<h4 class="aside__menu-title">
+								<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M9.00146 11C11.2106 11 13.0015 9.20914 13.0015 7C13.0015 4.79086 11.2106 3 9.00146 3C6.79233 3 5.00146 4.79086 5.00146 7C5.00146 9.20914 6.79233 11 9.00146 11Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M3 21V19C3 17.9391 3.42143 16.9217 4.17157 16.1716C4.92172 15.4214 5.93913 15 7 15H11C12.0609 15 13.0783 15.4214 13.8284 16.1716C14.5786 16.9217 15 17.9391 15 19V21" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+									<path d="M15.999 11L17.999 13L21.999 9" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+								</svg>
+								<span class="menu__link-text">
+									User
+								</span>
+							</h4>
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											Social Profile
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											Follower
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											Friends
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="#" class="menu__link">
+											Gallery
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="aside__menu menu">
+							<nav class="menu__body">
+								<ul class="menu__list">
+									<li class="menu__item menu__item_mail">
+										<a href="#" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M19.0015 4.99988H5.00147C3.8969 4.99988 3.00146 5.89531 3.00146 6.99988V16.9999C3.00146 18.1044 3.8969 18.9999 5.00147 18.9999H19.0015C20.106 18.9999 21.0015 18.1044 21.0015 16.9999V6.99988C21.0015 5.89531 20.106 4.99988 19.0015 4.99988Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M3.00146 7L12.0015 13L21.0015 7" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Mail
+											</span>
+											<div class="menu__link-info">
+												01
+											</div>
+										</a>
+									</li>
+									<li class="menu__item menu__item_maps">
+										<a href="#" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M3 7L9 4L15 7L21 4V17L15 20L9 17L3 20V7Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M9 4V17" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M15 7V20" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Maps
+											</span>
+											<div class="menu__link-info">
+												<picture><source srcset="img/user-img.webp" type="image/webp"><img src="img/user-img.png" alt="user-img"></picture>
+												Avatar
+											</div>
+										</a>
+									</li>
+									<li class="menu__item">
+										<a href="form-page.html" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M12 3C11.2044 3 10.4413 3.31607 9.87868 3.87868C9.31607 4.44129 9 5.20435 9 6V18C9 18.7956 9.31607 19.5587 9.87868 20.1213C10.4413 20.6839 11.2044 21 12 21" stroke="#757575" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M6 3C6.79565 3 7.55871 3.31607 8.12132 3.87868C8.68393 4.44129 9 5.20435 9 6V18C9 18.7956 8.68393 19.5587 8.12132 20.1213C7.55871 20.6839 6.79565 21 6 21" stroke="#757575" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13 7H20C20.2652 7 20.5196 7.10536 20.7071 7.29289C20.8946 7.48043 21 7.73478 21 8V16C21 16.2652 20.8946 16.5196 20.7071 16.7071C20.5196 16.8946 20.2652 17 20 17H13" stroke="#757575" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M5 7H4C3.73478 7 3.48043 7.10536 3.29289 7.29289C3.10536 7.48043 3 7.73478 3 8V16C3 16.2652 3.10536 16.5196 3.29289 16.7071C3.48043 16.8946 3.73478 17 4 17H5" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M17 12H17.01" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M13 12H13.01" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Forms
+											</span>
+										</a>
+									</li>
+									<li class="menu__item menu__item_pricing">
+										<a href="#" class="menu__link">
+											<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M5 22V5.11111C5 4.55121 5.22242 4.01424 5.61833 3.61833C6.01424 3.22242 6.55121 3 7.11111 3H17.6667C18.2266 3 18.7635 3.22242 19.1594 3.61833C19.5554 4.01424 19.7778 4.55121 19.7778 5.11111V22L16.6111 19.8889L14.5 22L12.3889 19.8889L10.2778 22L8.16667 19.8889L5 22Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+												<path d="M12.3826 6.69427V8.27761M14.4937 8.27761H11.8548C11.4349 8.27761 11.0322 8.44442 10.7352 8.74136C10.4383 9.03829 10.2715 9.44102 10.2715 9.86094C10.2715 10.2809 10.4383 10.6836 10.7352 10.9805C11.0322 11.2775 11.4349 11.4443 11.8548 11.4443H12.9104C13.3303 11.4443 13.733 11.6111 14.03 11.908C14.3269 12.205 14.4937 12.6077 14.4937 13.0276C14.4937 13.4475 14.3269 13.8503 14.03 14.1472C13.733 14.4441 13.3303 14.6109 12.9104 14.6109H10.2715L14.4937 8.27761ZM12.3826 14.6109V16.1943V14.6109Z" stroke="#616161" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+											</svg>
+											<span class="menu__link-text">
+												Pricing
+											</span>
+											<div class="menu__link-info">
+												Rounded
+											</div>
+										</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</aside>
+					<div class="page__content content-body">
+						<div class="content-body__top">
+							<h4 class="content-body__name-page">Application Pages</h4>
+							<div class="content-body__breadcrumbs breadcrumbs">
+								<a href="index.html" class="breadcrumbs__links breadcrumbs__links_home">
+									<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6.66659 13.3333V9.33333H9.33325V13.3333H12.6666V8H14.6666L7.99992 2L1.33325 8H3.33325V13.3333H6.66659Z" fill="#673AB7" />
+									</svg>
+								</a>
+								<a href="#" class="breadcrumbs__links">
+									E-commerce
+								</a>
+							</div>
+						</div>
+						<div class="content-body__body body-products content-body__body_product">
+							<div class="body-products__top">
+								<h2 class="body-products__title">
+									E-commerce
+								</h2>
+							</div>
+							<div class="body-product__body">
+								<div class="body-product__inner">
+									<div class="body-product__sliders sliders">
+										<div class="sliders__slider swiper">
+											<div class="sliders__wrapper swiper-wrapper">
+												<div class="sliders__slide swiper-slide">
+													<div class="sliders__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders__slide swiper-slide">
+													<div class="sliders__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders__slide swiper-slide">
+													<div class="sliders__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders__slide swiper-slide">
+													<div class="sliders__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders__slide swiper-slide">
+													<div class="sliders__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders__slide swiper-slide">
+													<div class="sliders__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.jpg" alt="product img"></picture>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="sliders-thumbs__slider swiper">
+											<div class="sliders-thumbs__wrapper swiper-wrapper">
+												<div class="sliders-thumbs__slide swiper-slide">
+													<div class="sliders-thumbs__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders-thumbs__slide swiper-slide">
+													<div class="sliders-thumbs__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders-thumbs__slide swiper-slide">
+													<div class="sliders-thumbs__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders-thumbs__slide swiper-slide">
+													<div class="sliders-thumbs__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders-thumbs__slide swiper-slide">
+													<div class="sliders-thumbs__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.jpg" alt="product img"></picture>
+													</div>
+												</div>
+												<div class="sliders-thumbs__slide swiper-slide">
+													<div class="sliders-thumbs__slide-image sliders__slide_image-ibg">
+														<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.jpg" alt="product img"></picture>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="body-product__information information-product">
+										<div class="information-product__block-name">
+											<div class="information-product__info">
+												<div class="information-product__stock">
+													In Stock
+												</div>
+												<h3 class="information-product__name">
+													Nike Sneaker
+													<span class="information-product__new">
+														New
+													</span>
+												</h3>
+											</div>
+											<button type="button" class="information-product__desired">
+												<svg width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M14.5 6.10352e-05C12.76 6.10352e-05 11.09 0.810061 10 2.09006C8.91 0.810061 7.24 6.10352e-05 5.5 6.10352e-05C2.42 6.10352e-05 0 2.42006 0 5.50006C0 9.28006 3.4 12.3601 8.55 17.0401L10 18.3501L11.45 17.0301C16.6 12.3601 20 9.28006 20 5.50006C20 2.42006 17.58 6.10352e-05 14.5 6.10352e-05ZM10.1 15.5501L10 15.6501L9.9 15.5501C5.14 11.2401 2 8.39006 2 5.50006C2 3.50006 3.5 2.00006 5.5 2.00006C7.04 2.00006 8.54 2.99006 9.07 4.36006H10.94C11.46 2.99006 12.96 2.00006 14.5 2.00006C16.5 2.00006 18 3.50006 18 5.50006C18 8.39006 14.86 11.2401 10.1 15.5501Z" fill="#757575" />
+												</svg>
+											</button>
+										</div>
+										<p class="information-product__block-text">
+											Enim qui tenetur in quae tempore. Quidem voluptates dignissimos laudantium.
+											Non quia aperiam. Expedita tempora doloribus sed vel adipisci. Rem
+											consequatur illum.
+										</p>
+										<div class="information-product__rating rating rating_set">
+											<div class="rating__body">
+												<div class="rating__active"></div>
+												<div class="rating__items">
+													<input type="radio" class="rating__item" value="1" name="rating">
+													<input type="radio" class="rating__item" value="2" name="rating">
+													<input type="radio" class="rating__item" value="3" name="rating">
+													<input type="radio" class="rating__item" value="4" name="rating">
+													<input type="radio" class="rating__item" value="5" name="rating">
+												</div>
+											</div>
+											<div class="rating__value">4</div>
+										</div>
+										<div class="information-product__price">
+											$265
+										</div>
+										<div class="information-product__block-setting">
+											<div class="information-product__colors">
+												<span>
+													Color
+												</span>
+												<div class="filters-products__color">
+													<div class="filters-products__checkbox_color">
+														<input id="c_white" class="checkbox__input_color" type="checkbox" value="white" name="form[]">
+														<label for="c_white" class="checkbox__label_color"></label>
+													</div>
+													<div class="filters-products__checkbox_color">
+														<input id="c_gray" class="checkbox__input_color" type="checkbox" value="gray" name="form[]">
+														<label for="c_gray" class="checkbox__label_color"></label>
+													</div>
+													<div class="filters-products__checkbox_color">
+														<input id="c_beige" class="checkbox__input_color" type="checkbox" value="beige" name="form[]">
+														<label for="c_beige" class="checkbox__label_color"></label>
+													</div>
+													<div class="filters-products__checkbox_color">
+														<input id="c_yellow" class="checkbox__input_color" type="checkbox" value="yellow" name="form[]">
+														<label for="c_yellow" class="checkbox__label_color"></label>
+													</div>
+												</div>
+											</div>
+											<div class="information-product__size">
+												<span>
+													Size
+												</span>
+												<select name="form[]" class="form">
+													<option value="1" selected>38</option>
+													<option value="2">40</option>
+													<option value="3">41</option>
+													<option value="4">43</option>
+												</select>
+											</div>
+											<div class="information-product__quantity">
+												<span>
+													Quantity
+												</span>
+												<div class="quantity">
+													<button type="button" class="quantity__button quantity__button_minus"></button>
+													<div class="quantity__input">
+														<input autocomplete="off" type="text" name="form[]" value="1">
+													</div>
+													<button type="button" class="quantity__button quantity__button_plus"></button>
+												</div>
+											</div>
+										</div>
+										<div class="information-product__btns">
+											<button type="button" class="information-product__btn information-product__add-cart">
+												<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path opacity="0.3" d="M16.2999 11.0001L19.0599 6.00012H6.90991L9.27991 11.0001H16.2999Z" fill="white" />
+													<path d="M16.3 13.0001C17.05 13.0001 17.71 12.5901 18.05 11.9701L21.63 5.48012C22 4.82012 21.52 4.00012 20.76 4.00012H5.96L5.02 2.00012H1.75V4.00012H3.75L7.35 11.5901L6 14.0301C5.27 15.3701 6.23 17.0001 7.75 17.0001H19.75V15.0001H7.75L8.85 13.0001H16.3ZM6.91 6.00012H19.06L16.3 11.0001H9.28L6.91 6.00012ZM7.75 18.0001C6.65 18.0001 5.76 18.9001 5.76 20.0001C5.76 21.1001 6.65 22.0001 7.75 22.0001C8.85 22.0001 9.75 21.1001 9.75 20.0001C9.75 18.9001 8.85 18.0001 7.75 18.0001ZM17.75 18.0001C16.65 18.0001 15.76 18.9001 15.76 20.0001C15.76 21.1001 16.65 22.0001 17.75 22.0001C18.85 22.0001 19.75 21.1001 19.75 20.0001C19.75 18.9001 18.85 18.0001 17.75 18.0001Z" fill="white" />
+												</svg>
+												Add to Cart
+											</button>
+											<button type="button" class="information-product__btn information-product__buy-now">
+												Buy Now
+											</button>
+										</div>
+										<div class="information-product__offer">
+											<div class="information-product__offer-title">
+												<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<g clip-path="url(#clip0_4_9924)">
+														<path d="M9.54196 16.1725L12.8565 6.22889C12.9793 5.86045 12.7801 5.46248 12.4116 5.33967C12.0432 5.21686 11.6452 5.41608 11.5224 5.78452L8.2079 15.7281C8.08508 16.0965 8.2843 16.4945 8.65274 16.6173C8.72633 16.6417 8.80133 16.6534 8.87493 16.6534C9.1693 16.6534 9.44352 16.4673 9.54196 16.1725Z" fill="#2196F3" />
+														<path d="M14.5093 13.0877C15.6722 13.0877 16.6187 12.1413 16.6187 10.9783C16.6187 9.81536 15.6722 8.86896 14.5093 8.86896C13.3463 8.86896 12.3999 9.81536 12.3999 10.9783C12.3999 12.1413 13.3463 13.0877 14.5093 13.0877ZM14.5093 10.2752C14.8969 10.2752 15.2124 10.5907 15.2124 10.9783C15.2124 11.366 14.8969 11.6815 14.5093 11.6815C14.1216 11.6815 13.8062 11.366 13.8062 10.9783C13.8062 10.5907 14.1216 10.2752 14.5093 10.2752Z" fill="#2196F3" />
+														<path d="M6.55444 8.86896C5.39147 8.86896 4.44507 9.81536 4.44507 10.9783C4.44507 12.1413 5.39147 13.0877 6.55444 13.0877C7.71741 13.0877 8.66382 12.1413 8.66382 10.9783C8.66382 9.81536 7.71741 8.86896 6.55444 8.86896ZM6.55444 11.6815C6.16679 11.6815 5.85132 11.366 5.85132 10.9783C5.85132 10.5907 6.16679 10.2752 6.55444 10.2752C6.9421 10.2752 7.25757 10.5907 7.25757 10.9783C7.25757 11.366 6.9421 11.6815 6.55444 11.6815Z" fill="#2196F3" />
+														<path opacity="0.3" d="M20.5087 11.7411C20.4871 11.8916 20.4173 12.0313 20.3099 12.1391L11.6919 20.7566C11.2077 21.2408 10.5768 21.4911 9.94116 21.5089C9.98522 22.1145 10.4924 22.5941 11.1093 22.5941H21.4218C22.0682 22.5941 22.5937 22.0681 22.5937 21.4222V9.37532L21.126 7.41876L20.5087 11.7411Z" fill="#2196F3" />
+														<path d="M23.8594 8.71917L21.4073 5.45011L21.503 4.78074C21.5344 4.56183 21.4608 4.34058 21.3042 4.18402L19.8127 2.69246L21.3042 1.20089C21.5789 0.926206 21.5789 0.481362 21.3042 0.206675C21.0295 -0.0680129 20.5842 -0.0680129 20.31 0.206675L18.8184 1.69824L17.3269 0.206206C17.1703 0.0496433 16.9495 -0.0234817 16.7302 0.0074558L9.76969 1.00167C9.61922 1.02324 9.47953 1.09308 9.37219 1.20042L0.75375 9.81839C-0.25125 10.8234 -0.25125 12.4593 0.75375 13.4643L6.72563 19.4362L8.04563 20.7567C8.19469 20.9057 8.35828 21.0323 8.53078 21.1373V21.4223C8.53078 22.0673 8.76938 22.657 9.16219 23.1098C9.63516 23.655 10.3322 24.0004 11.1089 24.0004H21.4214C22.8431 24.0004 23.9995 22.844 23.9995 21.4223V9.14105C24 8.98871 23.9508 8.84105 23.8594 8.71917ZM22.5938 21.4223C22.5938 22.0682 22.0683 22.5942 21.4219 22.5942H11.1094C10.4925 22.5942 9.98531 22.1146 9.94125 21.509C10.5773 21.4912 11.2078 21.2414 11.692 20.7567L20.31 12.1387C20.4178 12.0309 20.4872 11.8917 20.5088 11.7407L21.1261 7.41839L22.5938 9.37542V21.4223ZM6.72563 17.4478L1.74844 12.4701C1.29141 12.0131 1.29141 11.2696 1.74844 10.8126L10.2005 2.36058L16.5811 1.44933L17.8242 2.69246L16.83 3.68667L16.3327 3.18933C16.058 2.91464 15.6127 2.91464 15.3384 3.18933C15.0638 3.46402 15.0638 3.90886 15.3384 4.18355L16.9903 5.83542L17.3273 6.17246C17.4647 6.3098 17.6447 6.37824 17.8247 6.37824C18.0047 6.37824 18.1847 6.30933 18.322 6.17246C18.4167 6.07777 18.4781 5.96246 18.5077 5.84105C18.5634 5.61089 18.502 5.35777 18.322 5.17824L17.8247 4.68089L18.8189 3.68667L20.062 4.9298L19.8947 6.09417L19.1494 11.31L10.6978 19.7625C10.4766 19.9837 10.1822 20.1056 9.86906 20.1056C9.55594 20.1056 9.26156 19.9837 9.04031 19.7625L6.72563 17.4478Z" fill="#2196F3" />
+													</g>
+													<defs>
+														<clipPath id="clip0_4_9924">
+															<rect width="24" height="24" fill="white" transform="translate(0 0.000183105)" />
+														</clipPath>
+													</defs>
+												</svg>
+												Best Offer
+											</div>
+											<ul class="information-product__offer-list">
+												<li class="information-product__offer-item">
+													Coupon Discount: $20 off (check cart for final savings)
+												</li>
+												<li class="information-product__offer-item">
+													Applicable on: Orders above $20 (only on first purchase)
+												</li>
+												<li class="information-product__offer-item">
+													Discount: 15% Instant Discount Using BOB Credit Cards T&C
+												</li>
+												<li class="information-product__offer-item">
+													Get up to $1 Cashback using Paytm Wallet T&C
+												</li>
+											</ul>
+										</div>
+									</div>
+								</div>
+								<div class="body-product__bottom">
+									<div class="body-product__discription discription">
+										<h5 class="discription__title">
+											Discription
+										</h5>
+										<div data-spollers class="discription__spollers spollers">
+											<div class="spollers__item">
+												<button type="button" data-spoller class="spollers__title _spoller-active">Specification</button>
+												<div class="spollers__body">
+													Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.
+												</div>
+												<button type="button" data-spoller class="spollers__title">Material and
+													Wash instruction</button>
+												<div class="spollers__body">
+													Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.
+												</div>
+												<button type="button" data-spoller class="spollers__title">Add on
+													data</button>
+												<div class="spollers__body">
+													Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.Incidunt deleniti aspernatur consequatur fugiat sit quis quo
+													dolorem.
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="body-product__related-products related-products">
+							<div class="related-products__top">
+								<h4 class="related-products__title">
+									Related Products
+								</h4>
+								<div class="related-products__controlls">
+									<button type="button" class="swiper-button-prev">
+										<svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M6.79175 0.25L0.541748 6.5L6.79175 12.75L8.26049 11.2812L3.48966 6.5L8.26049 1.71875L6.79175 0.25Z" fill="#757575" />
+										</svg>
+									</button>
+									<button type="button" class="swiper-button-next">
+										<svg width="9" height="13" viewBox="0 0 9 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M2.20825 0.25L8.45825 6.5L2.20825 12.75L0.739505 11.2812L5.51034 6.5L0.739505 1.71875L2.20825 0.25Z" fill="#757575" />
+										</svg>
+									</button>
+								</div>
+							</div>
+							<div class="related-products__slider swiper">
+								<div class="related-products__wrapper swiper-wrapper">
+									<article class="body-products__item item-product related-products__slide swiper-slide">
+										<a class="item-product__image-ibg item-product__image" href="page-product.html">
+											<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt="product img"></picture>
+										</a>
+										<h5 class="item-product__title">
+											Nike Sneakers
+										</h5>
+										<p class="item-product__text">
+											Omnis mollitia cupiditate et quibusdam qui non. Quis voluptat...
+										</p>
+										<div class="item-product__bottom">
+											<div class="item-product__price">
+												$265
+												<span class="item-product__sale">
+													$265
+												</span>
+											</div>
+											<button type="button" class="item-product__btn">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path opacity="0.3" d="M15.7999 11.5L18.5599 6.5H6.40991L8.77991 11.5H15.7999Z" fill="white" />
+													<path d="M15.8 13.5C16.55 13.5 17.21 13.09 17.55 12.47L21.13 5.98C21.5 5.32 21.02 4.5 20.26 4.5H5.46L4.52 2.5H1.25V4.5H3.25L6.85 12.09L5.5 14.53C4.77 15.87 5.73 17.5 7.25 17.5H19.25V15.5H7.25L8.35 13.5H15.8ZM6.41 6.5H18.56L15.8 11.5H8.78L6.41 6.5ZM7.25 18.5C6.15 18.5 5.26 19.4 5.26 20.5C5.26 21.6 6.15 22.5 7.25 22.5C8.35 22.5 9.25 21.6 9.25 20.5C9.25 19.4 8.35 18.5 7.25 18.5ZM17.25 18.5C16.15 18.5 15.26 19.4 15.26 20.5C15.26 21.6 16.15 22.5 17.25 22.5C18.35 22.5 19.25 21.6 19.25 20.5C19.25 19.4 18.35 18.5 17.25 18.5Z" fill="white" />
+												</svg>
+											</button>
+										</div>
+									</article>
+									<article class="body-products__item item-product related-products__slide swiper-slide">
+										<a class="item-product__image-ibg item-product__image" href="page-product.html">
+											<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt="product img"></picture>
+										</a>
+										<h5 class="item-product__title">
+											Nike Sneakers
+										</h5>
+										<p class="item-product__text">
+											Omnis mollitia cupiditate et quibusdam qui non. Quis voluptat...
+										</p>
+										<div class="item-product__bottom">
+											<div class="item-product__price">
+												$265
+												<span class="item-product__sale">
+													$265
+												</span>
+											</div>
+											<button type="button" class="item-product__btn">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path opacity="0.3" d="M15.7999 11.5L18.5599 6.5H6.40991L8.77991 11.5H15.7999Z" fill="white" />
+													<path d="M15.8 13.5C16.55 13.5 17.21 13.09 17.55 12.47L21.13 5.98C21.5 5.32 21.02 4.5 20.26 4.5H5.46L4.52 2.5H1.25V4.5H3.25L6.85 12.09L5.5 14.53C4.77 15.87 5.73 17.5 7.25 17.5H19.25V15.5H7.25L8.35 13.5H15.8ZM6.41 6.5H18.56L15.8 11.5H8.78L6.41 6.5ZM7.25 18.5C6.15 18.5 5.26 19.4 5.26 20.5C5.26 21.6 6.15 22.5 7.25 22.5C8.35 22.5 9.25 21.6 9.25 20.5C9.25 19.4 8.35 18.5 7.25 18.5ZM17.25 18.5C16.15 18.5 15.26 19.4 15.26 20.5C15.26 21.6 16.15 22.5 17.25 22.5C18.35 22.5 19.25 21.6 19.25 20.5C19.25 19.4 18.35 18.5 17.25 18.5Z" fill="white" />
+												</svg>
+											</button>
+										</div>
+									</article>
+									<article class="body-products__item item-product related-products__slide swiper-slide">
+										<a class="item-product__image-ibg item-product__image" href="page-product.html">
+											<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt="product img"></picture>
+										</a>
+										<h5 class="item-product__title">
+											Nike Sneakers
+										</h5>
+										<p class="item-product__text">
+											Omnis mollitia cupiditate et quibusdam qui non. Quis voluptat...
+										</p>
+										<div class="item-product__bottom">
+											<div class="item-product__price">
+												$265
+												<span class="item-product__sale">
+													$265
+												</span>
+											</div>
+											<button type="button" class="item-product__btn">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path opacity="0.3" d="M15.7999 11.5L18.5599 6.5H6.40991L8.77991 11.5H15.7999Z" fill="white" />
+													<path d="M15.8 13.5C16.55 13.5 17.21 13.09 17.55 12.47L21.13 5.98C21.5 5.32 21.02 4.5 20.26 4.5H5.46L4.52 2.5H1.25V4.5H3.25L6.85 12.09L5.5 14.53C4.77 15.87 5.73 17.5 7.25 17.5H19.25V15.5H7.25L8.35 13.5H15.8ZM6.41 6.5H18.56L15.8 11.5H8.78L6.41 6.5ZM7.25 18.5C6.15 18.5 5.26 19.4 5.26 20.5C5.26 21.6 6.15 22.5 7.25 22.5C8.35 22.5 9.25 21.6 9.25 20.5C9.25 19.4 8.35 18.5 7.25 18.5ZM17.25 18.5C16.15 18.5 15.26 19.4 15.26 20.5C15.26 21.6 16.15 22.5 17.25 22.5C18.35 22.5 19.25 21.6 19.25 20.5C19.25 19.4 18.35 18.5 17.25 18.5Z" fill="white" />
+												</svg>
+											</button>
+										</div>
+									</article>
+									<article class="body-products__item item-product related-products__slide swiper-slide">
+										<a class="item-product__image-ibg item-product__image" href="page-product.html">
+											<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt="product img"></picture>
+										</a>
+										<h5 class="item-product__title">
+											Nike Sneakers
+										</h5>
+										<p class="item-product__text">
+											Omnis mollitia cupiditate et quibusdam qui non. Quis voluptat...
+										</p>
+										<div class="item-product__bottom">
+											<div class="item-product__price">
+												$265
+												<span class="item-product__sale">
+													$265
+												</span>
+											</div>
+											<button type="button" class="item-product__btn">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path opacity="0.3" d="M15.7999 11.5L18.5599 6.5H6.40991L8.77991 11.5H15.7999Z" fill="white" />
+													<path d="M15.8 13.5C16.55 13.5 17.21 13.09 17.55 12.47L21.13 5.98C21.5 5.32 21.02 4.5 20.26 4.5H5.46L4.52 2.5H1.25V4.5H3.25L6.85 12.09L5.5 14.53C4.77 15.87 5.73 17.5 7.25 17.5H19.25V15.5H7.25L8.35 13.5H15.8ZM6.41 6.5H18.56L15.8 11.5H8.78L6.41 6.5ZM7.25 18.5C6.15 18.5 5.26 19.4 5.26 20.5C5.26 21.6 6.15 22.5 7.25 22.5C8.35 22.5 9.25 21.6 9.25 20.5C9.25 19.4 8.35 18.5 7.25 18.5ZM17.25 18.5C16.15 18.5 15.26 19.4 15.26 20.5C15.26 21.6 16.15 22.5 17.25 22.5C18.35 22.5 19.25 21.6 19.25 20.5C19.25 19.4 18.35 18.5 17.25 18.5Z" fill="white" />
+												</svg>
+											</button>
+										</div>
+									</article>
+									<article class="body-products__item item-product related-products__slide swiper-slide">
+										<a class="item-product__image-ibg item-product__image" href="page-product.html">
+											<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.jpg" alt="product img"></picture>
+										</a>
+										<h5 class="item-product__title">
+											Nike Sneakers
+										</h5>
+										<p class="item-product__text">
+											Omnis mollitia cupiditate et quibusdam qui non. Quis voluptat...
+										</p>
+										<div class="item-product__bottom">
+											<div class="item-product__price">
+												$265
+												<span class="item-product__sale">
+													$265
+												</span>
+											</div>
+											<button type="button" class="item-product__btn">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path opacity="0.3" d="M15.7999 11.5L18.5599 6.5H6.40991L8.77991 11.5H15.7999Z" fill="white" />
+													<path d="M15.8 13.5C16.55 13.5 17.21 13.09 17.55 12.47L21.13 5.98C21.5 5.32 21.02 4.5 20.26 4.5H5.46L4.52 2.5H1.25V4.5H3.25L6.85 12.09L5.5 14.53C4.77 15.87 5.73 17.5 7.25 17.5H19.25V15.5H7.25L8.35 13.5H15.8ZM6.41 6.5H18.56L15.8 11.5H8.78L6.41 6.5ZM7.25 18.5C6.15 18.5 5.26 19.4 5.26 20.5C5.26 21.6 6.15 22.5 7.25 22.5C8.35 22.5 9.25 21.6 9.25 20.5C9.25 19.4 8.35 18.5 7.25 18.5ZM17.25 18.5C16.15 18.5 15.26 19.4 15.26 20.5C15.26 21.6 16.15 22.5 17.25 22.5C18.35 22.5 19.25 21.6 19.25 20.5C19.25 19.4 18.35 18.5 17.25 18.5Z" fill="white" />
+												</svg>
+											</button>
+										</div>
+									</article>
+									<article class="body-products__item item-product related-products__slide swiper-slide">
+										<a class="item-product__image-ibg item-product__image" href="page-product.html">
+											<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.jpg" alt="product img"></picture>
+										</a>
+										<h5 class="item-product__title">
+											Nike Sneakers
+										</h5>
+										<p class="item-product__text">
+											Omnis mollitia cupiditate et quibusdam qui non. Quis voluptat...
+										</p>
+										<div class="item-product__bottom">
+											<div class="item-product__price">
+												$265
+												<span class="item-product__sale">
+													$265
+												</span>
+											</div>
+											<button type="button" class="item-product__btn">
+												<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path opacity="0.3" d="M15.7999 11.5L18.5599 6.5H6.40991L8.77991 11.5H15.7999Z" fill="white" />
+													<path d="M15.8 13.5C16.55 13.5 17.21 13.09 17.55 12.47L21.13 5.98C21.5 5.32 21.02 4.5 20.26 4.5H5.46L4.52 2.5H1.25V4.5H3.25L6.85 12.09L5.5 14.53C4.77 15.87 5.73 17.5 7.25 17.5H19.25V15.5H7.25L8.35 13.5H15.8ZM6.41 6.5H18.56L15.8 11.5H8.78L6.41 6.5ZM7.25 18.5C6.15 18.5 5.26 19.4 5.26 20.5C5.26 21.6 6.15 22.5 7.25 22.5C8.35 22.5 9.25 21.6 9.25 20.5C9.25 19.4 8.35 18.5 7.25 18.5ZM17.25 18.5C16.15 18.5 15.26 19.4 15.26 20.5C15.26 21.6 16.15 22.5 17.25 22.5C18.35 22.5 19.25 21.6 19.25 20.5C19.25 19.4 18.35 18.5 17.25 18.5Z" fill="white" />
+												</svg>
+											</button>
+										</div>
+									</article>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	</div>
+	<script src="js/app.min.js?_v=20220413144502"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+// Базовые стили спойлеров
+// Сниппет (HTML): spoller
+
+// Блок со спойлерами
+.spollers {
+    display: grid;
+    gap: 15px;
+}
+// Спойлер
+.spollers__item {
+    font-size: rem(20);
+}
+// Заголовок спойлера
+.spollers__title {
+    display: flex;
+    align-items: center;
+    gap: rem(8);
+    width: 100%;
+    cursor: default;
+    text-align: left;
+    font-weight: 500;
+    font-size: rem(14);
+    line-height: 1.5;
+    border: 1px solid #eee;
+    padding: rem(10) 0;
+    border-radius: rem(5);
+    position: relative;
+    ._spoller-init & {
+        cursor: pointer;
+        &::before,
+        &::after {
+            content: "";
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            background-color: #9e9e9e;
+            height: 2px;
+            width: 7px;
+            transition: transform 0.5s ease 0s;
+        }
+        &::before {
+            transform: translate(-75%, -50%) rotate(40deg);
+        }
+        &::after {
+            transform: translate(0, -50%) rotate(-40deg);
+        }
+        &._spoller-active {
+            &::before {
+                transform: translateX(-75%) rotate(-40deg);
+            }
+            &::after {
+                transform: rotate(40deg);
+            }
+        }
+    }
+}
+// Контент спойлера
+.spollers__body {
+    padding: rem(20);
+    border-radius: rem(5);
+    border: 1px solid #eee;
+}
+
+.filters-products {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: rem(250);
+    padding: 0 rem(10);
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #f5f5f5;
+    border-radius: 12px;
+    @media (max-width: $tablet) {
+        top: -10px;
+    }
+    @media (max-width: em(500)) {
+        width: 100%;
+    }
+    .spollers__body {
+        border: none;
+        padding: rem(20) 0;
+    }
+    .spollers__title {
+        border: none;
+        border-bottom: 1px solid #f5f5f5;
+    }
+}
+
+.discription__spollers {
+    .spollers__body {
+        border: none;
+        border-bottom: 1px solid #e3f2fd;
+        padding: rem(20) 0;
+        font-weight: 400;
+        font-size: rem(14);
+        line-height: 1.3;
+        color: #9e9e9e;
+    }
+    .spollers__title {
+        font-weight: 500;
+        font-size: rem(14);
+        line-height: 1.3;
+        color: $textColor;
+        padding: rem(15) 0;
+        border: none;
+        border-bottom: 1px solid #e3f2fd;
+    }
+}
